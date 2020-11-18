@@ -18,7 +18,7 @@
         <TextBox x:Name="txtRicercaAutore" HorizontalAlignment="Left" Height="60" Margin="591,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
         <Button x:Name="btn_ricercaTitolo" Content="Ricerca per Titolo" HorizontalAlignment="Left" Height="38" Margin="389,10,0,0" VerticalAlignment="Top" Width="171" Click="btn_ricercaTitolo_Click"/>
         <Button x:Name="btn_ricercaAutore" Content="Ricerca per Autore:" HorizontalAlignment="Left" Height="38" Margin="591,10,0,0" VerticalAlignment="Top" Width="171" Click="btn_ricercaAutore_Click"/>
-        <Button x:Name="btn_CreaLibro" Content="Crea Libro" HorizontalAlignment="Left" Height="38" Margin="250,130,0,0" VerticalAlignment="Top" Width="521"/>
+        <Button x:Name="btn_CreaLibro" Content="Crea Libro" HorizontalAlignment="Left" Height="38" Margin="250,130,0,0" VerticalAlignment="Top" Width="521" Click="btn_CreaLibro_Click"/>
         <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Height="50" Margin="242,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
         <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="50" Margin="357,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
         <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="50" Margin="472,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>

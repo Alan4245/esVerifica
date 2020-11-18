@@ -59,5 +59,16 @@ namespace EsVerificaGithub
 
 
         }
+
+        private void btn_CreaLibro_Click(object sender, RoutedEventArgs e)
+        {
+
+            int numPagine = int.Parse(txtPagine.Text);
+            string titolo = txtTitolo.Text;
+            string autore = txtAutore.Text;
+            string editore = txtEditore.Text;
+            int anno = int.Parse(txtAnno.Text);
+
+        }
     }
 }
