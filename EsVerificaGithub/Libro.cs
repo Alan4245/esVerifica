@@ -14,6 +14,15 @@ namespace EsVerificaGithub
         private string _editore;
         private int _numeroPagine;
 
+        public Libro(string autore, string titolo, int annoPubblicazione, string editore, int numeroPagine)
+        {
+            Autore = autore;
+            Titolo = titolo;
+            AnnoPubblicazione = annoPubblicazione;
+            Editore = editore;
+            NumeroPagine = numeroPagine;
+        }
+
         public string Autore
         {
             get
@@ -94,6 +103,17 @@ namespace EsVerificaGithub
             }
         }
 
-       
+        public int ReadingTime()
+        {
+            int tmp = NumeroPagine / 100;
+            return tmp + 1;
+        }
+
+        public override string ToString()
+        {
+            return $"{Autore}|{Titolo}|{AnnoPubblicazione}|{Editore}|{NumeroPagine}";
+        }
+
+
     }
 }
