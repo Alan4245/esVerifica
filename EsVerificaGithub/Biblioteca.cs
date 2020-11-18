@@ -14,7 +14,7 @@ namespace EsVerificaGithub
        private float _orarioChiusura;
 
 
-        public Biblioteca(string Nome, string Indirizzo,float orarioApertura, float orarioChiusura, List <string > Libri)
+        public Biblioteca(string Nome, string Indirizzo,float orarioApertura, float orarioChiusura, List <Libro> Libri)
         {
             Nome = _nome;
             Indirizzo = _indirizzo;
@@ -31,7 +31,7 @@ namespace EsVerificaGithub
             }
             set
             {
-                return _nome;
+                 _nome = value;
             }
             
         }
@@ -44,7 +44,7 @@ namespace EsVerificaGithub
             }
             set
             {
-                return _indirizzo;
+                 _indirizzo = value;
             }
         }
 
@@ -56,7 +56,7 @@ namespace EsVerificaGithub
             }
             set
             {
-                return _orarioApertura;
+                 _orarioApertura = value;
             }
         }
 
@@ -68,11 +68,12 @@ namespace EsVerificaGithub
             }
             set
             {
-                return _orarioChiusura;
+                 _orarioChiusura = value;
             }
         }
 
         
+       
 
 
     }
