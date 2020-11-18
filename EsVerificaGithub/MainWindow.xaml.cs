@@ -21,11 +21,18 @@ namespace EsVerificaGithub
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+        List<Libro> libri;
+        Biblioteca biblioteca;
+
         public MainWindow()
         {
             InitializeComponent();
             Inizializzazione();
+            libri = new List<Libro>();
         }
+
+        
 
 
         public void Inizializzazione()
@@ -41,6 +48,7 @@ namespace EsVerificaGithub
                 txtNome.Text = lineaSplittata[0];
                 txtIndirizzo.Text = lineaSplittata[1];
                 txtTabellaOraria.Text = lineaSplittata[2];
+                biblioteca = new Biblioteca(txtNome.Text, txtIndirizzo.Text, txtTabellaOraria.Text, libri);
 
             }
 
@@ -49,14 +57,28 @@ namespace EsVerificaGithub
         private void btn_ricercaTitolo_Click(object sender, RoutedEventArgs e)
         {
 
+            string titolo = txtTitolo.Text;
+            List<Libro> libriCompatibili = new List<Libro>();
 
+            foreach(Libro libro in libri)
+            {
+
+
+
+                if (libro.Titolo == titolo)
+                    libriCompatibili.Add(libro);
+
+            }
+
+            //stampo la ricerca sul txtRicerca
+            
 
         }
 
         private void btn_ricercaAutore_Click(object sender, RoutedEventArgs e)
         {
 
-
+            //stessa cosa della ricerca per titolo
 
         }
 
@@ -68,6 +90,9 @@ namespace EsVerificaGithub
             string autore = txtAutore.Text;
             string editore = txtEditore.Text;
             int anno = int.Parse(txtAnno.Text);
+
+            Libro newLibro = new Libro(autore, titolo, anno, editore, numPagine);
+            libri.Add(newLibro);
 
         }
     }
