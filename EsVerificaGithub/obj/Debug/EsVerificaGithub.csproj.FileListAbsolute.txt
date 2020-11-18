@@ -1,0 +1,15 @@
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\bin\Debug\EsVerificaGithub.exe.config
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\bin\Debug\EsVerificaGithub.exe
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\bin\Debug\EsVerificaGithub.pdb
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.csprojAssemblyReference.cache
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\MainWindow.g.cs
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\App.g.cs
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub_MarkupCompile.cache
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub_MarkupCompile.lref
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\MainWindow.baml
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.g.resources
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.Properties.Resources.resources
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.csproj.GenerateResource.cache
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.csproj.CoreCompileInputs.cache
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.exe
+C:\Users\alan.mariani\Documents\EsVerificaGithub\EsVerificaGithub\obj\Debug\EsVerificaGithub.pdb

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace EsVerificaGithub
 {
@@ -23,6 +24,40 @@ namespace EsVerificaGithub
         public MainWindow()
         {
             InitializeComponent();
+            Inizializzazione();
+        }
+
+
+        public void Inizializzazione()
+        {
+
+            using(StreamReader sr = new StreamReader("datiBiblioteca.txt"))
+            {
+
+                string line;
+
+                line = sr.ReadLine();
+                string[] lineaSplittata = line.Split('|');
+                txtNome.Text = lineaSplittata[0];
+                txtIndirizzo.Text = lineaSplittata[1];
+                txtTabellaOraria.Text = lineaSplittata[2];
+
+            }
+
+        }
+
+        private void btn_ricercaTitolo_Click(object sender, RoutedEventArgs e)
+        {
+
+
+
+        }
+
+        private void btn_ricercaAutore_Click(object sender, RoutedEventArgs e)
+        {
+
+
+
         }
     }
 }
