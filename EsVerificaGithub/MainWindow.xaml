@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="lblDati" Content="Dati Biblioteca:" HorizontalAlignment="Left" Height="38" Margin="10,10,0,0" VerticalAlignment="Top" Width="171" FontSize="20"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="30" Margin="10,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="15"/>
+        <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Left" Height="30" Margin="10,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="15"/>
+        <TextBox x:Name="txtTabellaOraria" HorizontalAlignment="Left" Height="199" Margin="10,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="15"/>
+        <Label x:Name="lblOrari" Content="Tebella Oraria:" HorizontalAlignment="Left" Height="33" Margin="52,164,0,0" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <Label x:Name="lblNome" Content="Nome:" HorizontalAlignment="Left" Height="29" Margin="10,45,0,0" VerticalAlignment="Top" Width="60" FontSize="15"/>
+        <Label x:Name="lblIndirizzo" Content="Indirizzo:" HorizontalAlignment="Left" Height="29" Margin="10,105,0,0" VerticalAlignment="Top" Width="82" FontSize="15"/>
+        <TextBox x:Name="txtRicercaTitolo" HorizontalAlignment="Left" Height="60" Margin="389,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="txtRicercaAutore" HorizontalAlignment="Left" Height="60" Margin="591,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Button x:Name="btn_ricercaTitolo" Content="Ricerca per Titolo" HorizontalAlignment="Left" Height="38" Margin="389,10,0,0" VerticalAlignment="Top" Width="171"/>
+        <Button x:Name="btn_ricercaTitolo_Copy" Content="Ricerca per Autore:" HorizontalAlignment="Left" Height="38" Margin="591,10,0,0" VerticalAlignment="Top" Width="171"/>
+
     </Grid>
 </Window>
